@@ -12,7 +12,7 @@
                     </div>
                 </v-col>
                 <v-col class="text-center">
-                    <v-btn :to="'/'">final shop</v-btn>
+                    <v-btn :to="'/'">real final shop</v-btn>
                 </v-col>
                 <v-col class="d-flex justify-end">
                     <v-btn v-if="isLogined" :to="'/order/cart'">장바구니 {{ totalQuantity }}</v-btn>
